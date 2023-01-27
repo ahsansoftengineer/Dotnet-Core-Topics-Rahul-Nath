@@ -1,0 +1,12 @@
+The Microsoft Azure (AZ) series of courses are a set of certification exams and corresponding training materials that are designed to help individuals and organizations gain the knowledge and skills needed to work with Microsoft's Azure cloud platform. These certifications are focused on different roles and skill levels, and can help you demonstrate your expertise in various aspects of Azure, such as administration, development, and architecture.
+
+Azure Administrator (AZ-104)
+Azure Developer (AZ-204)
+Azure Solutions Architect (AZ-303 and AZ-304)
+Azure DevOps Engineer (AZ-400)
+Azure Security Engineer (AZ-500)
+Azure Data Engineer (DP-200 and DP-201)
+Azure AI Engineer (AI-100 and AI-900)
+These certification exams are intended for IT professionals and developers who want to gain the knowledge and skills necessary to design, build, and manage applications and services on Azure. The exams are designed to test your understanding of Azure concepts, technologies, and best practices, and can be taken at Microsoft testing centers or online.
+
+It's worth to notice that Microsoft regularly updates their certifications exams and the list above may not be updated. It's always recommended to check the Microsoft official website for the most recent information.

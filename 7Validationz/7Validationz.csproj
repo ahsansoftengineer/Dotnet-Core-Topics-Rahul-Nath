@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <!--Setting up Target Framework for application-->
+    <TargetFramework>net6.0</TargetFramework>
+    <!--Enable Default Type Checking on Nullable Reference Type-->
+    <!--<Nullable>enable</Nullable>-->
+    <!--Enhance Import Statements-->
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!--Setting Root Namespace so the newly generated file included in namespace-->
+    <RootNamespace>_7Validationz</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+</Project>

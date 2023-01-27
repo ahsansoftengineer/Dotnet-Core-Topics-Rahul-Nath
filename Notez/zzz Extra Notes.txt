@@ -1,0 +1,31 @@
+Q2. What happens when Express.js Application Starts Running?
+1. When an Express.js API application starts running, a number of things happen in order to initialize the application and get it ready to handle incoming requests. Some of the main steps that occur include:
+
+2. The Node.js runtime is initialized. Express.js is built on top of Node.js, which provides an environment for executing JavaScript code on the server side.
+
+3. The application's dependencies are loaded. Express.js applications are built using a number of modules and packages, which are specified in the application's package.json file. These dependencies are loaded into the application's environment when the application starts.
+
+4. The Express.js application is configured. The application's main JavaScript file typically sets up the Express.js application by creating an instance of the Express.js application, configuring middleware, and setting up routes.
+
+5. The application begins to listen for incoming requests. This is typically done by calling the listen method on the Express.js application instance, and passing in a port number and an optional callback function.
+
+6. Once the application is running, it will continue to process incoming requests until it is shut down or otherwise stopped. Express.js uses a callback function for each route to handle request and send the response
+
+7. Depending on the design, the application may also connect to a database and initialize any necessary data models or perform other operations required for the application to function.
+
+Q3. What happens when Angular application start running?
+1. When an Angular application starts running, a number of things happen in order to initialize the application and get it ready to handle user interactions. Some of the main steps that occur include:
+
+2. The Angular framework is loaded. Angular is a JavaScript framework, and it is loaded along with the application's JavaScript code, typically via a script tag in the HTML page.
+
+3. The application's modules and components are loaded. Angular applications are organized into modules, which are made up of individual components. These components are defined using TypeScript classes and Angular decorators.
+
+4. The application's bootstrap module is executed. The bootstrap module is a special module that is responsible for starting the application. It's typically defined in the "main.ts" file and contains the code that tells Angular to start the application by bootstrapping the root component.
+
+5. The component tree is rendered. Once the bootstrap module is executed, Angular takes the root component and uses it to create a component tree. It then renders the component tree by updating the DOM with the component's templates and any dynamic data.
+
+6. The application begins to listen for user interactions. Angular uses a powerful event system and change detection mechanism, that allows the application to respond to user interactions and updates to data in real-time.
+
+7. The application may also initiate communication with a back-end service via HTTP calls or WebSockets and initialize necessary data models or perform other operations required for the application to function.
+
+8. Once the application is running, it will continue to process user interactions and update the component tree and the DOM as necessary.

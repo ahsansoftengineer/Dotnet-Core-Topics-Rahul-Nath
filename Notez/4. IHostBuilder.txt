@@ -1,0 +1,41 @@
+What is IHostBuilder?
+
+IHostBuilder is an interface in the .NET Core runtime that provides a way to create and configure a host for a .NET Core application. A host is the top-level object that manages the lifetime of the application, including starting and stopping the application, and providing access to the application's services and dependencies.
+
+The IHostBuilder interface has several methods that can be used to configure the host, including:
+
+UseServiceProviderFactory: Allows you to specify the service provider factory to be used by the host.
+
+ConfigureServices: Allows you to configure the services that are available to the application.
+
+ConfigureAppConfiguration: Allows you to configure the application's configuration settings.
+
+UseStartup: Allows you to specify the startup class for the application.
+
+UseContentRoot: Allows you to specify the content root path for the application.
+
+UseEnvironment: Allows you to specify the environment for the application.
+
+UseHostingStartupAssembly: Allows you to specify the assembly containing the IHostingStartup implementation.
+
+IHostBuilder is typically used in the Main method of a .NET Core application to create and configure the host, and then start the application.
+
+In summary IHostBuilder is an interface that provides a way to create and configure the host of a .NET Core application and it allows to configure services, configuration, startup class, content root, environment, etc.
+
+
+IHost VS IHostBuilder
+- In summary, IHost is an interface that represents the host of a .NET Core application, it provides methods for starting and stopping the application, as well as methods for accessing the application's services and dependencies. IHostBuilder is an interface that provides a way to create and configure an IHost instance, it has several methods that can be used to configure the host, such as configuring services, setting the startup class, and setting the environment.
+
+IHostBuilder VS IWebHostBuilder
+
+IWebHostBuilder and IHostBuilder are both interfaces in the .NET Core runtime that provide ways to create and configure a host for a .NET Core application. However, they have slightly different purposes and are used in different contexts.
+
+IWebHostBuilder is a specialized version of IHostBuilder that is specifically designed for web applications. It provides additional methods for configuring web-specific features, such as setting up Kestrel for hosting the application, configuring middleware, and setting up routing.
+
+IHostBuilder, on the other hand, is more general-purpose and can be used to create and configure a host for any type of .NET Core application, not just web applications. It provides methods for configuring services, setting the startup class, and setting the environment.
+
+In summary, IWebHostBuilder is a specialized version of IHostBuilder that is specifically designed for web applications, it provides additional methods for configuring web-specific features. IHostBuilder is more general-purpose and can be used to create and configure a host for any type of .NET Core application, it provides methods for configuring services, setting the startup class, and setting the environment.
+
+
+
+

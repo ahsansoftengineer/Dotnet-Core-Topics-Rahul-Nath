@@ -1,0 +1,15 @@
+1. IHostingEnvironment: Provides information about the current hosting environment, such as the environment name and content root path.
+2. ILoggerFactory: Used to create instances of ILogger for logging purposes.
+3. IConfiguration: Provides access to application configuration settings, such as those stored in JSON or XML files.
+4. IMemoryCache: Provides an in-memory cache for storing and retrieving data.
+5. DbContext: Used to access a database using Entity Framework Core.
+6. IdentityServices: Used to implement authentication and authorization in the application.
+7. IMvcBuilder: Used to configure MVC services and options.
+8. IHttpClientFactory: Used to create and manage instances of HttpClient for making HTTP requests.
+9. IServiceProvider: Provides access to the application's DI container.
+10. IWebHostEnvironment: Provides information about the current web hosting environment.
+
+
+
+
+

@@ -1,0 +1,90 @@
+{
+  "accessTier": "Hot",
+  "allowBlobPublicAccess": true,
+  "allowCrossTenantReplication": null,
+  "allowSharedKeyAccess": null,
+  "allowedCopyScope": null,
+  "azureFilesIdentityBasedAuthentication": null,
+  "blobRestoreStatus": null,
+  "creationTime": "2023-01-04T15:02:15.479934+00:00",
+  "customDomain": null,
+  "defaultToOAuthAuthentication": null,
+  "dnsEndpointType": null,
+  "enableHttpsTrafficOnly": true,
+  "enableNfsV3": null,
+  "encryption": {
+    "encryptionIdentity": null,
+    "keySource": "Microsoft.Storage",
+    "keyVaultProperties": null,
+    "requireInfrastructureEncryption": null,
+    "services": {
+      "blob": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2023-01-04T15:02:16.229909+00:00"
+      },
+      "file": {
+        "enabled": true,
+        "keyType": "Account",
+        "lastEnabledTime": "2023-01-04T15:02:16.229909+00:00"
+      },
+      "queue": null,
+      "table": null
+    }
+  },
+  "extendedLocation": null,
+  "failoverInProgress": null,
+  "geoReplicationStats": null,
+  "id": "/subscriptions/5a37f45d-b79d-4669-96c7-5669ef482b8d/resourceGroups/learn-7830b601-5de1-44c8-b234-b1117f13b7e7/providers/Microsoft.Storage/storageAccounts/ahsanaccount",
+  "identity": null,
+  "immutableStorageWithVersioning": null,
+  "isHnsEnabled": null,
+  "isLocalUserEnabled": null,
+  "isSftpEnabled": null,
+  "keyCreationTime": {
+    "key1": "2023-01-04T15:02:15.589291+00:00",
+    "key2": "2023-01-04T15:02:15.589291+00:00"
+  },
+  "keyPolicy": null,
+  "kind": "StorageV2",
+  "largeFileSharesState": null,
+  "lastGeoFailoverTime": null,
+  "location": "westus",
+  "minimumTlsVersion": "TLS1_0",
+  "name": "ahsanaccount",
+  "networkRuleSet": {
+    "bypass": "AzureServices",
+    "defaultAction": "Allow",
+    "ipRules": [],
+    "resourceAccessRules": null,
+    "virtualNetworkRules": []
+  },
+  "primaryEndpoints": {
+    "blob": "https://ahsanaccount.blob.core.windows.net/",
+    "dfs": "https://ahsanaccount.dfs.core.windows.net/",
+    "file": "https://ahsanaccount.file.core.windows.net/",
+    "internetEndpoints": null,
+    "microsoftEndpoints": null,
+    "queue": "https://ahsanaccount.queue.core.windows.net/",
+    "table": "https://ahsanaccount.table.core.windows.net/",
+    "web": "https://ahsanaccount.z22.web.core.windows.net/"
+  },
+  "primaryLocation": "westus",
+  "privateEndpointConnections": [],
+  "provisioningState": "Succeeded",
+  "publicNetworkAccess": null,
+  "resourceGroup": "learn-7830b601-5de1-44c8-b234-b1117f13b7e7",
+  "routingPreference": null,
+  "sasPolicy": null,
+  "secondaryEndpoints": null,
+  "secondaryLocation": null,
+  "sku": {
+    "name": "Standard_LRS",
+    "tier": "Standard"
+  },
+  "statusOfPrimary": "available",
+  "statusOfSecondary": null,
+  "storageAccountSkuConversionStatus": null,
+  "tags": {},
+  "type": "Microsoft.Storage/storageAccounts"
+}

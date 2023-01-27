@@ -1,0 +1,26 @@
+Q1. What happens when ASP .NET Core API Application Starts Running?
+1. When a .NET API application starts running, a number of things happen in the background to initialize the application and get it ready to handle incoming requests. Some of the main steps that occur include:
+
+2. The Common Language Runtime (CLR) is initialized. The CLR is the runtime environment for .NET applications, and it is responsible for managing the execution of code, providing services such as memory management and exception handling, and enforcing security.
+
+3. The application's assemblies are loaded into memory. Assemblies are the basic building blocks of a .NET application, and they contain the executable code, resources, and metadata needed to run the application.
+
+4. The application's configuration files are read and processed. These files, which are typically in XML format, specify settings such as the location of external resources and the behavior of the application.
+
+5. The application's startup code is executed. This code typically configures the application's environment, such as setting up routing rules, initializing dependencies and any other things that are required for application initialization
+
+6. The application begin to listen for incoming requests and process it. Depending on the application design, it might be using a queue, a web service, or a specific protocol to handle incoming requests.
+
+7. Once the application is running, it will continue to process incoming requests until it is shut down or otherwise stopped.
+
+Q2. What is a Marker Interface?
+1. A marker interface in .NET is an interface that contains no methods or properties, and is used to indicate that a class that implements it has a specific behavior or characteristic. Marker interfaces are used to provide metadata about a class, rather than to define behavior. Examples of marker interfaces in the .NET Framework include the ICloneable and ISerializable interfaces.
+
+Q2.1. Marker Interface Example
+1. Another example is the Serializable interface in Java, it is a marker interface, it does not have any methods, but it indicates that the class implementing it can be serialized.
+2. Marker interface is used to indicate some special property of the class to runtime or other tools.
+```c#
+class Employee implements Serializable {
+    // class fields, methods and constructor
+}
+```
