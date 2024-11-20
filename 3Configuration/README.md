@@ -24,7 +24,8 @@ var builder = WebApplication.CreateBuilder(args);
 ### How to Use Configuration with Strongly Typed Class?
 // Configuration Array with binding to a Class
 1.  AppSettings _settings = Configuration.GetSection("AppSettings").Get<AppSettings>();
-2  AppSettings _settings2 = new AppSettings(); Configuration.GetSection("AppSettings").Bind(_settings2);
+2.  AppSettings _settings2 = new AppSettings();
+3.  Configuration.GetSection("AppSettings").Bind(_settings2);
 
 - Console.WriteLine($"MyArray0: \t {string.Join(", ", _settings.Array0 ?? Array.Empty<string>())}");
 - Console.WriteLine($"MyArray1: \t {string.Join(", ", _settings.Array1 ?? Array.Empty<string>())}");
